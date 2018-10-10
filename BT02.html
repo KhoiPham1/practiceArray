@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var x = [1,2,3,4,-1,10,11,12,15,20];
+    var max = x[0];
+    var index = 0;
+    for (var i = 1; i< x.length;i++){
+        if (x[i]>max){
+            max = x[i];
+            index = i;
+        }
+    }
+    alert("numMax: " + max + "at" + index);
+
+</script>
+</body>
+</html>

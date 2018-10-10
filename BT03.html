@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var x = [1,4,2,12,3,14,5,6,7,2];
+    var max = x[0];
+    var sum = 0;
+    for (var i=0; i<x.length;i++){
+        if (x[i]>max){
+            max = x[i];
+        }
+        sum += x[i];
+    }
+    alert("max: "+ max);
+    var average = sum / x.length;
+    alert(average);
+</script>
+</body>
+</html>
